@@ -1,0 +1,36 @@
+
+
+
+icis_development:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: twoapps1_dev
+  pool: 5
+  username: root
+  password:
+  host: localhost
+
+
+development:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: twoapps2_dev
+  pool: 5
+  username: root
+  password:
+  host: localhost
+
+
+
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: twoapps2_prod
+  pool: 5
+  username: root
+  password:
+  host: localhost
