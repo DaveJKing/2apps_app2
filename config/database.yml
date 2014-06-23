@@ -1,7 +1,7 @@
 
 
 
-icis_development:
+icis_dev:
   adapter: mysql2
   encoding: utf8
   reconnect: false
